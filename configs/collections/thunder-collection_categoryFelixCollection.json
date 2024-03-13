@@ -1,0 +1,90 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "categoryFelixCollection",
+    "dateExported": "2024-03-13T04:07:06.038Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "d7a797c3-ce00-4307-b6ce-1968379cc7eb",
+            "colId": "397da1b5-39ea-4927-b493-fc4644c75d34",
+            "containerId": "",
+            "name": "categoryFelixPost",
+            "url": "http://localhost:3000/api/categories",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-03-12T21:02:29.319Z",
+            "modified": "2024-03-12T21:19:18.716Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWYwYzAxMDQxNTc5MDdlOTk4ZTA1NWYiLCJuYW1lIjoiY2hlIiwiY2FydCI6W10sImlhdCI6MTcxMDI3NzMxMCwiZXhwIjoxNzEwMjgwOTEwfQ.RWvmmNZ1I5PAUQokOy-E6mgkq6nCayIkPAxLcBNphWQ"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nameCategory\": \"Computo\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "13b7842c-93ae-4b09-91b0-84a831cd976c",
+            "colId": "397da1b5-39ea-4927-b493-fc4644c75d34",
+            "containerId": "",
+            "name": "categoryFelixGet",
+            "url": "http://localhost:3000/api/categories",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-03-12T21:05:02.611Z",
+            "modified": "2024-03-12T21:05:07.122Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "04e8959a-3d04-4275-a1a5-b78ddf70b6c7",
+            "colId": "397da1b5-39ea-4927-b493-fc4644c75d34",
+            "containerId": "",
+            "name": "categoryFelixPut",
+            "url": "http://localhost:3000/api/categories/65f0c314efe7c72e6ef99229",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2024-03-12T21:05:15.662Z",
+            "modified": "2024-03-12T21:06:30.935Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWYwYzAxMDQxNTc5MDdlOTk4ZTA1NWYiLCJuYW1lIjoiY2hlIiwiY2FydCI6W10sImlhdCI6MTcxMDI3NzMxMCwiZXhwIjoxNzEwMjgwOTEwfQ.RWvmmNZ1I5PAUQokOy-E6mgkq6nCayIkPAxLcBNphWQ"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nameCategory\": \"mecardinho\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "f8a6f771-6d39-48b0-91b2-883a9c74bd04",
+            "colId": "397da1b5-39ea-4927-b493-fc4644c75d34",
+            "containerId": "",
+            "name": "categoryFelixDelete",
+            "url": "http://localhost:3000/api/categories/65f0c41fefe7c72e6ef99236",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2024-03-12T21:06:56.620Z",
+            "modified": "2024-03-12T21:08:21.513Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWYwYzAxMDQxNTc5MDdlOTk4ZTA1NWYiLCJuYW1lIjoiY2hlIiwiY2FydCI6W10sImlhdCI6MTcxMDI3NzY0MSwiZXhwIjoxNzEwMjgxMjQxfQ.Qrj0yeIvsiemXHeNKbS8QeeRxdBi1HnhTKfvDQjEE4Y"
+                }
+            ],
+            "params": [],
+            "tests": []
+        }
+    ]
+}

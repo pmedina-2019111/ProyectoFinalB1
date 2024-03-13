@@ -1,0 +1,22 @@
+[{
+  "_id": {
+    "$oid": "65f0c314efe7c72e6ef99229"
+  },
+  "nameCategory": "MECARDINHO",
+  "estado": true,
+  "user": {
+    "$oid": "65f0c0104157907e998e055f"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65f0c717cf5f496cf97b1331"
+  },
+  "nameCategory": "COMPUTO",
+  "estado": true,
+  "user": {
+    "$oid": "65f0c0104157907e998e055f"
+  },
+  "__v": 0
+}]

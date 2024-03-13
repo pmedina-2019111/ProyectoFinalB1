@@ -1,0 +1,85 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "carritoFelixCollection",
+    "dateExported": "2024-03-13T04:08:24.727Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "e95b5f13-469e-49fc-9a0b-2f6208924be0",
+            "colId": "c0b45e09-2ef2-4491-86a3-7f29918b4650",
+            "containerId": "",
+            "name": "carritoAdd",
+            "url": "http://localhost:3000/api/carrito/65f0cd5a6dbcad1ca340c3ff",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-03-12T23:24:06.186Z",
+            "modified": "2024-03-12T23:55:25.598Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWYwYzA1OGFhZTVlNWQyYTEyYmY5ZjQiLCJuYW1lIjoiY2hlMjQ0IiwiY2FydCI6W10sImlhdCI6MTcxMDI4NzcxMCwiZXhwIjoxNzEwMjkxMzEwfQ.uuBbE0hRuX7Or08XW5n-ASX52CA7q37JPDQ3gFPjARM"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "8094fd71-c969-4c7b-8e0a-f108706ce8fe",
+            "colId": "c0b45e09-2ef2-4491-86a3-7f29918b4650",
+            "containerId": "",
+            "name": "carritoGet",
+            "url": "http://localhost:3000/api/carrito",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-03-12T23:49:02.235Z",
+            "modified": "2024-03-12T23:53:48.886Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWYwYzA1OGFhZTVlNWQyYTEyYmY5ZjQiLCJuYW1lIjoiY2hlMjQ0IiwiY2FydCI6W10sImlhdCI6MTcxMDI4NzYxNCwiZXhwIjoxNzEwMjkxMjE0fQ.-8pwsfG7teolgrH2_ckXG2FNSg-OmBNo6f1ACnb7a2I"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "d4ab5c9c-b21c-427e-b8bf-264193a1dd1f",
+            "colId": "c0b45e09-2ef2-4491-86a3-7f29918b4650",
+            "containerId": "",
+            "name": "carritoPut",
+            "url": "http://localhost:3000/api/carrito/65f0cd5a6dbcad1ca340c3ff",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2024-03-12T23:56:17.280Z",
+            "modified": "2024-03-13T00:29:47.594Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWYwYzA1OGFhZTVlNWQyYTEyYmY5ZjQiLCJuYW1lIjoiY2hlMjQ0IiwiY2FydCI6W1t7Iml0ZW1JZCI6IjY1ZjBjZDVhNmRiY2FkMWNhMzQwYzNmZiIsInF1YW50aXR5IjoxfV0sW3siaXRlbUlkIjoiNjVmMGNkNWE2ZGJjYWQxY2EzNDBjM2ZmIiwicXVhbnRpdHkiOjF9XSxbeyJpdGVtSWQiOiI2NWYwY2Q1YTZkYmNhZDFjYTM0MGMzZmYiLCJxdWFudGl0eSI6MX1dXSwiaWF0IjoxNzEwMjg5NzAzLCJleHAiOjE3MTAyOTMzMDN9.ZBotjwDLA6RT0NxXvLDgHJszvOk-RyGioL2VkuCWQWY"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "d1724a58-05a6-4cf3-b390-4d2d05361d03",
+            "colId": "c0b45e09-2ef2-4491-86a3-7f29918b4650",
+            "containerId": "",
+            "name": "carritoDelete",
+            "url": "http://localhost:3000/api/carrito/65f0cd5a6dbcad1ca340c3ff",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2024-03-13T00:32:45.344Z",
+            "modified": "2024-03-13T00:33:30.826Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWYwYzA1OGFhZTVlNWQyYTEyYmY5ZjQiLCJuYW1lIjoiY2hlMjQ0IiwiY2FydCI6W1t7Iml0ZW1JZCI6IjY1ZjBjZDVhNmRiY2FkMWNhMzQwYzNmZiIsInF1YW50aXR5IjoxfV0sW3siaXRlbUlkIjoiNjVmMGNkNWE2ZGJjYWQxY2EzNDBjM2ZmIiwicXVhbnRpdHkiOjF9XSxbeyJpdGVtSWQiOiI2NWYwY2Q1YTZkYmNhZDFjYTM0MGMzZmYiLCJxdWFudGl0eSI6MX1dXSwiaWF0IjoxNzEwMjg5NzAzLCJleHAiOjE3MTAyOTMzMDN9.ZBotjwDLA6RT0NxXvLDgHJszvOk-RyGioL2VkuCWQWY"
+                }
+            ],
+            "params": [],
+            "tests": []
+        }
+    ]
+}

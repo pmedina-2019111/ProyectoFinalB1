@@ -1,0 +1,80 @@
+[{
+  "_id": {
+    "$oid": "65f0c0104157907e998e055f"
+  },
+  "name": "che",
+  "email": "che2@gmail.com",
+  "password": "$2a$10$whu47ES2FblNBe964JswJuQn1/0/SwsDD3VHmOI7hYKgbLBaSt5em",
+  "role": "ADMIN_ROL",
+  "isActive": true,
+  "cart": [
+    [
+      {
+        "itemId": "65f0cd5a6dbcad1ca340c3ff",
+        "quantity": 1
+      }
+    ],
+    [
+      {
+        "itemId": "65f0cd5a6dbcad1ca340c3ff",
+        "quantity": 1
+      }
+    ]
+  ],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65f0c058aae5e5d2a12bf9f4"
+  },
+  "name": "che244",
+  "email": "che23@gmail.com",
+  "password": "$2a$10$3Tu9hAf/WVuu5JeBZRKeheuLXGcy7lRRTzMj7e8zuOqUyUTtqV3pC",
+  "role": "CLIENT_ROL",
+  "isActive": true,
+  "cart": [
+    [
+      {
+        "itemId": "65f0cd5a6dbcad1ca340c3ff",
+        "quantity": 1
+      }
+    ],
+    [
+      {
+        "itemId": "65f0cd5a6dbcad1ca340c3ff",
+        "quantity": 1
+      }
+    ],
+    [
+      {
+        "itemId": "65f0cd5a6dbcad1ca340c3ff",
+        "quantity": 1
+      }
+    ],
+    [
+      {
+        "itemId": "65f0cd5a6dbcad1ca340c3ff",
+        "quantity": 1
+      }
+    ],
+    [
+      {
+        "itemId": "65f0cd5a6dbcad1ca340c3ff",
+        "quantity": 1
+      }
+    ],
+    [
+      {
+        "itemId": "65f0cd5a6dbcad1ca340c3ff",
+        "quantity": 1
+      }
+    ],
+    [
+      {
+        "itemId": "65f0cd5a6dbcad1ca340c3ff",
+        "quantity": 1
+      }
+    ]
+  ],
+  "__v": 0
+}]

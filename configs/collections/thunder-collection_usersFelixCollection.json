@@ -1,0 +1,75 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "usersFelixCollection",
+    "dateExported": "2024-03-13T04:06:18.405Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "f4726964-9361-4705-8fa4-fe49fcf50f1a",
+            "colId": "be819978-3346-4c72-9149-7a79e0261f87",
+            "containerId": "",
+            "name": "usersFelixPost",
+            "url": "http://localhost:3000/api/users",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-03-12T20:47:10.381Z",
+            "modified": "2024-03-12T20:53:57.176Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"che23333333333\",\n  \"email\": \"che2333333333@gmail.com\",\n  \"password\": \"123456\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "6251fe6e-828f-4094-a400-c5486175aa0d",
+            "colId": "be819978-3346-4c72-9149-7a79e0261f87",
+            "containerId": "",
+            "name": "usersFelixPut",
+            "url": "http://localhost:3000/api/users/65f0c058aae5e5d2a12bf9f4",
+            "method": "PUT",
+            "sortNum": 20000,
+            "created": "2024-03-12T20:51:59.580Z",
+            "modified": "2024-03-12T20:52:28.191Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"che244\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "40a8ab08-599f-4324-8f87-6917b24aab07",
+            "colId": "be819978-3346-4c72-9149-7a79e0261f87",
+            "containerId": "",
+            "name": "usersFelixGet",
+            "url": "http://localhost:3000/api/users",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-03-12T20:52:45.496Z",
+            "modified": "2024-03-12T20:52:48.828Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "79bdf6e3-d011-4a45-b6d0-3921eca56023",
+            "colId": "be819978-3346-4c72-9149-7a79e0261f87",
+            "containerId": "",
+            "name": "usersFelixDelete",
+            "url": "http://localhost:3000/api/users/65f0c0e6cb546ba94f3d2152",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2024-03-12T20:54:24.773Z",
+            "modified": "2024-03-12T20:54:56.916Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}

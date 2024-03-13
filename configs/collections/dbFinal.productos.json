@@ -1,0 +1,72 @@
+[{
+  "_id": {
+    "$oid": "65f0c764cf5f496cf97b1335"
+  },
+  "nameProductos": "TECLADO",
+  "estado": true,
+  "user": {
+    "$oid": "65f0c0104157907e998e055f"
+  },
+  "precioProductos": 2000,
+  "stockProductos": 100,
+  "category": {
+    "$oid": "65f0c717cf5f496cf97b1331"
+  },
+  "description": "teclado portatil asusROG",
+  "disponible": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65f0cd5a6dbcad1ca340c3ff"
+  },
+  "nameProductos": "PRUEBAEL",
+  "estado": true,
+  "user": {
+    "$oid": "65f0c0104157907e998e055f"
+  },
+  "precioProductos": 2000,
+  "stockProductos": 100,
+  "category": {
+    "$oid": "65f0c717cf5f496cf97b1331"
+  },
+  "description": "teclado portatil asusROG",
+  "disponible": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65f0cd5e6dbcad1ca340c403"
+  },
+  "nameProductos": "PRUEBAEL11",
+  "estado": true,
+  "user": {
+    "$oid": "65f0c0104157907e998e055f"
+  },
+  "precioProductos": 2000,
+  "stockProductos": 100,
+  "category": {
+    "$oid": "65f0c717cf5f496cf97b1331"
+  },
+  "description": "teclado portatil asusROG",
+  "disponible": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65f0cd636dbcad1ca340c407"
+  },
+  "nameProductos": "PRUEBAEL112",
+  "estado": false,
+  "user": {
+    "$oid": "65f0c0104157907e998e055f"
+  },
+  "precioProductos": 2000,
+  "stockProductos": 100,
+  "category": {
+    "$oid": "65f0c717cf5f496cf97b1331"
+  },
+  "description": "teclado portatil asusROG",
+  "disponible": true,
+  "__v": 0
+}]

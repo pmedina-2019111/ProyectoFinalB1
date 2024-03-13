@@ -1,0 +1,28 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "facturaFelixCollection",
+    "dateExported": "2024-03-13T04:09:06.592Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "2bc4c033-8134-45da-8292-76e31ae59497",
+            "colId": "7d25959e-887e-40a4-913c-003e6dc45c00",
+            "containerId": "",
+            "name": "facturaPost",
+            "url": "http://localhost:3000/api/factura/65f0c058aae5e5d2a12bf9f4",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-03-13T01:56:15.540Z",
+            "modified": "2024-03-13T02:16:31.993Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWYwYzA1OGFhZTVlNWQyYTEyYmY5ZjQiLCJuYW1lIjoiY2hlMjQ0IiwiY2FydCI6W1t7Iml0ZW1JZCI6IjY1ZjBjZDVhNmRiY2FkMWNhMzQwYzNmZiIsInF1YW50aXR5IjoxfV0sW3siaXRlbUlkIjoiNjVmMGNkNWE2ZGJjYWQxY2EzNDBjM2ZmIiwicXVhbnRpdHkiOjF9XSxbeyJpdGVtSWQiOiI2NWYwY2Q1YTZkYmNhZDFjYTM0MGMzZmYiLCJxdWFudGl0eSI6MX1dLFt7Iml0ZW1JZCI6IjY1ZjBjZDVhNmRiY2FkMWNhMzQwYzNmZiIsInF1YW50aXR5IjoxfV0sW3siaXRlbUlkIjoiNjVmMGNkNWE2ZGJjYWQxY2EzNDBjM2ZmIiwicXVhbnRpdHkiOjF9XSxbeyJpdGVtSWQiOiI2NWYwY2Q1YTZkYmNhZDFjYTM0MGMzZmYiLCJxdWFudGl0eSI6MX1dLFt7Iml0ZW1JZCI6IjY1ZjBjZDVhNmRiY2FkMWNhMzQwYzNmZiIsInF1YW50aXR5IjoxfV1dLCJpYXQiOjE3MTAyOTYxNzgsImV4cCI6MTcxMDI5OTc3OH0.W2MxFDpAuQvS7dr2pql8j7xE_-MPeG3fA9wBpseWfwI"
+                }
+            ],
+            "params": [],
+            "tests": []
+        }
+    ]
+}

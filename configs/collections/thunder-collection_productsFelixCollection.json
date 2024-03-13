@@ -1,0 +1,81 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "productsFelixCollection",
+    "dateExported": "2024-03-13T04:07:54.697Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "00ba0830-8d6b-4ee5-ab03-9caf7991d971",
+            "colId": "5d964404-acc7-4af4-a244-ae90c0fbd78e",
+            "containerId": "",
+            "name": "productsFelixPost",
+            "url": "http://localhost:3000/api/products",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-03-12T21:16:26.903Z",
+            "modified": "2024-03-12T21:47:30.569Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWYwYzAxMDQxNTc5MDdlOTk4ZTA1NWYiLCJuYW1lIjoiY2hlIiwiY2FydCI6W10sImlhdCI6MTcxMDI3NzY0MSwiZXhwIjoxNzEwMjgxMjQxfQ.Qrj0yeIvsiemXHeNKbS8QeeRxdBi1HnhTKfvDQjEE4Y"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nameProductos\": \"Telefono\",\n  \"precioProductos\": 2000.00,\n  \"stockProductos\": 100,\n  \"category\": \"65f0c717cf5f496cf97b1331\",\n  \"description\": \"iphone 14 pro max felix\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "d5dd3e73-23c0-4966-b7c8-b752c9b5f743",
+            "colId": "5d964404-acc7-4af4-a244-ae90c0fbd78e",
+            "containerId": "",
+            "name": "productsFelixGet",
+            "url": "http://localhost:3000/api/products",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-03-12T21:22:41.911Z",
+            "modified": "2024-03-12T21:22:46.411Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "070fad44-8219-4255-bc57-1342de4b11e0",
+            "colId": "5d964404-acc7-4af4-a244-ae90c0fbd78e",
+            "containerId": "",
+            "name": "productsFelixPut",
+            "url": "http://localhost:3000/api/products",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-03-12T21:23:38.131Z",
+            "modified": "2024-03-12T21:47:39.681Z",
+            "headers": [],
+            "params": [],
+            "reqType": "get",
+            "tests": []
+        },
+        {
+            "_id": "fef47a70-52bf-462f-b845-0efda1c87dae",
+            "colId": "5d964404-acc7-4af4-a244-ae90c0fbd78e",
+            "containerId": "",
+            "name": "productsFelixDelete",
+            "url": "http://localhost:3000/api/products/65f0cd636dbcad1ca340c407",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2024-03-12T21:45:07.768Z",
+            "modified": "2024-03-12T21:48:21.056Z",
+            "headers": [
+                {
+                    "name": "x-token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWYwYzAxMDQxNTc5MDdlOTk4ZTA1NWYiLCJuYW1lIjoiY2hlIiwiY2FydCI6W10sImlhdCI6MTcxMDI3NzY0MSwiZXhwIjoxNzEwMjgxMjQxfQ.Qrj0yeIvsiemXHeNKbS8QeeRxdBi1HnhTKfvDQjEE4Y"
+                }
+            ],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
